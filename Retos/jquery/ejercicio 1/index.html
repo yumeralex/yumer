@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+	<div id="img"></div>
+
+	<script>
+		var url ="http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+		
+		$.getJSON(url, {
+   		tags: "mount rainier",
+   		tagmode: "any",
+   		format: "json"
+ 		}).done(function(data){
+ 			debugger;
+
+ 		});
+	</script>
+</body>
+</html>
