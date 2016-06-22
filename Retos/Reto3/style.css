@@ -1,0 +1,32 @@
+body {
+	font: Helvetica;
+	font color: #333;
+	font-size: 16px;
+	line-height: 1.6px;
+
+}
+body h1 {
+	background: whitesmoke;
+
+}
+
+img {
+	width: 100px ;
+}
+
+span {
+	display: inline-block;
+	vertical-align: top;
+	border:5px 5px 5px 5px;
+	margin: 5px 5px 5px	5px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	background-color: whitesmoke;
+}
+
+p {
+	color:grey;
+}
+header{
+	background: whitesmoke;
+}

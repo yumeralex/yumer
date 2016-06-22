@@ -1,0 +1,10 @@
+.negro {
+	background-color: black;
+	color: white;
+}
+
+form input[type="text"], input[type="password"]{
+ 	display: block;
+ 	width: 300px;
+ 	margin-bottom: 5px;
+}

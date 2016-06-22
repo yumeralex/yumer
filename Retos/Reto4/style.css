@@ -1,0 +1,31 @@
+body {
+	background-color: #edeff0;
+	font:62.5% helvetica;
+	line-height: 1.5;
+	font-size: 16px;
+
+}
+header {
+	
+	color: #384047;
+	background-color: white;
+}
+.square { 
+	height: 555px;
+	margin: 10px ;
+	padding: 10px;
+ }
+
+p {
+	color:  #b2bac2;
+}
+
+h1 {
+	font-size: 28px;
+	color: #384047;
+}
+
+.container {
+	background-color: white;
+	width: 700px;
+}

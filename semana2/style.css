@@ -1,0 +1,95 @@
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+body {
+	background: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Photos-Desktop-Grass-HD-Wallpapers.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font:62.5% Helvetica, Tahoma, Arial, Sans-serif;
+	height: 100%;
+}
+
+.container {
+	max-width: 1100px;
+	width: 100%; 
+	margin: 0 auto;
+}
+
+.nav-bar {
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.nav-bar h1 {
+	font-size: 4em;
+	color: #16E9ED;
+	background-color: black;
+	display: inline-block;
+	border: 4px;
+	border-color: white;
+	border-style: solid;
+	padding: 10px;
+}
+
+.nav-bar a {
+	font-size: 1.5em;
+	text-align: right;
+	float: right;
+	border:4px;
+	margin: 40px;
+
+
+}
+
+
+span {
+	display: inline-block;
+	width: 46%;
+	vertical-align: top;
+	font-size: 1.5em;
+}
+form { 
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	color: #2F32E4;
+	font-size: 1em;
+	background-color: rgba(53,213,218,0.5);
+	border-radius: 10%;
+	margin: 5px 5px 5px	5px;
+	padding: 5px 5px 5px 5px;
+	border: 10px solid;
+	border-color: #2F32E4;
+	text-shadow: 1px 1px black;
+	box-shadow: 0 0 5px blue;
+ }
+
+ form p {
+ 	font-size: 1.5em;
+ 	font-weight: bold;
+ 	color: #2F32E4;
+ 	box-shadow: 0px 1px black;
+ }
+
+ .final {
+ 	font-size: 1.2em;
+ }
+
+ form input[type="text"], input[type="password"]{
+ 	display: block;
+ 	width: 300px;
+ 	margin-bottom: 5px;
+ }
+
+ footer {
+ 	text-align: center;
+ 	margin-top: 50px;
+ }
+
+ .regs {
+ 	width: 50%;
+ 	display: inline-block;
+ }
