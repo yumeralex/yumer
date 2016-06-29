@@ -2,22 +2,30 @@
 <html>
 <head>
 	<title>Jquery</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 	<div id="img"></div>
 
 	<script>
-		var url ="http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-		
-		$.getJSON(url, {
-   		tags: "mount rainier",
-   		tagmode: "any",
-   		format: "json"
- 		}).done(function(data){
- 			debugger;
+		(function() {
 
- 		});
+			var url ="http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+
+			$.getJSON(url, {
+				tags: "mount rainier",
+				tagmode: "any",
+				format: "json"
+
+			}).done(function( data ){	
+				$.each( data.items, function( i, item ) {
+					$( "<img>" ).attr('src', item.media.m).appendTo('#img');
+					if ( i === 3 ){
+						return false;
+					}
+				});
+			});
+		})();
 	</script>
 </body>
 </html>
